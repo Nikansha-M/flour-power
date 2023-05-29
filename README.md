@@ -16,8 +16,7 @@ An ecommerce store for a bakery and cafe. Customers can browse and purchase a va
 To get started, you will need to clone the repository and install the dependencies.
 
 ```
-$> git clone (link to github repo)
-$> cd (folder)
+$> git clone https://github.com/Nikansha-M/flour-power.git
 $> npm install
 ```
 Once the dependencies are installed, you can start the development server by running the following command:
