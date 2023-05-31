@@ -9,7 +9,7 @@ class NavBar extends Component {
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-style">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">#Logo Here</a>
+                <a className="navbar-brand" href="#">#LogoHere</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -31,7 +31,7 @@ class NavBar extends Component {
                             <a className="nav-link" href="/#">Sign In</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#">#Shopping Basket Icon</a>
+                            <a className="nav-link" href="/#">#ShoppingBasketIcon</a>
                         </li>
                     </ul>
                 </div>
