@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBasketShopping} from '@fortawesome/fontawesome-free-solid';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 class NavBar extends Component {
@@ -32,6 +33,11 @@ class NavBar extends Component {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/#">#ShoppingBasketIcon</a>
+                        </li>
+                        <li>
+                            {/* <FontAwesomeIcon icon="fa-sharp fa-regular fa-basket-shopping" /> */}
+                            {/* <FontAwesomeIcon icon={regular("basket-shopping")} /> */}
+                            {/* <FontAwesomeIcon icon={faBasketShopping} /> */}
                         </li>
                     </ul>
                 </div>
