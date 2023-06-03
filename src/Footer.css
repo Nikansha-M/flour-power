@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.footer {
+    background-color: #feeac8;
+    border: none
+}
+
+.footer ul {
+    list-style: none;
+}
