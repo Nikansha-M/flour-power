@@ -1,4 +1,15 @@
-.navbar-style
-{
+.navbar-style {
   background-color: rgba(165, 164, 164, 0.406) !important;
+}
+
+.list-group-item {
+  width: 275px;
+  height: 6vw;
+  font-size: 2.5vh;
+  text-align: center;
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
 }
