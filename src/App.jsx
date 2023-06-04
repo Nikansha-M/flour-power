@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
 import MenuCategories from "./MenuCategories";
-
+import SearchBar from "./SearchBar";
 
 
 export default class App extends Component {
@@ -10,6 +10,7 @@ export default class App extends Component {
             <React.Fragment>
             <NavBar />
             <MenuCategories />
+            <SearchBar />
             </React.Fragment>
         );
     }
