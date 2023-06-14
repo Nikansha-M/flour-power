@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "./NavBar";
 import MenuCategories from "./MenuCategories";
 import SearchBar from "./SearchBar";
+import Filter from "./FilterMenu";
 
 
 export default class App extends Component {
@@ -11,6 +12,7 @@ export default class App extends Component {
             <NavBar />
             <MenuCategories />
             <SearchBar />
+            <Filter />
             </React.Fragment>
         );
     }
