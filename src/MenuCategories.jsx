@@ -48,7 +48,7 @@ export default class MenuCategories extends Component {
                         return (
                         <Product 
                         key={product.id} 
-                        id={product.id} 
+                        // id={product.id} 
                         photo={product.photo} alt="Product"
                         productName={product.productName} 
                         price={product.price} 

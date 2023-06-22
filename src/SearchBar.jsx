@@ -6,7 +6,7 @@ class SearchBar extends Component {
             <React.Fragment>
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-2">
                             <div class="input-group">
                                 <input class="form-control border-secondary py-2" type="search" value="search" />
                                 <div class="input-group-append">
