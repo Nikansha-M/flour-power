@@ -1,5 +1,5 @@
 # Flour Power Cafe
-An ecommerce store for a bakery and cafe. Customers can browse and purchase a variety of baked goods, coffee, and other beverages.
+An e-commerce store for an artisanal bakery and cafe. Customers can browse and purchase a variety of baked goods, coffee, and other beverages.
 
 ***
 
@@ -16,7 +16,7 @@ An ecommerce store for a bakery and cafe. Customers can browse and purchase a va
 To get started, you will need to clone the repository and install the dependencies.
 
 ```
-$> git clone https://github.com/Nikansha-M/flour-power
+$> git clone https://github.com/Nikansha-M/flour-power.git
 $> cd (folder)
 $> npm install
 ```
