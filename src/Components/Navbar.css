@@ -32,11 +32,11 @@ body {
 }
 
 .nav li.active {
-    background-color: black;
+    background-color: rgb(158, 33, 33);
 }
 
 .nav li.hover {
-    background-color: gray;
+    background-color: rgb(30, 180, 130);
 }
 
 .logo-container {
