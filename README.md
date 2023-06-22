@@ -17,6 +17,7 @@ To get started, you will need to clone the repository and install the dependenci
 
 ```
 $> git clone https://github.com/Nikansha-M/flour-power.git
+$> cd (folder)
 $> npm install
 ```
 Once the dependencies are installed, you can start the development server by running the following command:
