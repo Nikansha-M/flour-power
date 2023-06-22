@@ -1,0 +1,8 @@
+* {
+  font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+body {
+  background-image: linear-gradient(to left bottom, #78b9df, #96c5e2, #b2d1e5, #ccdde8, #e6e9eb); 
+  background-attachment: fixed;
+}
