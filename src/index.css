@@ -15,14 +15,19 @@ a {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   margin-left: 350px;
-  margin-top: -40%;
+  margin-top: -90%;
 }
 
 .dropdown {
-  position: absolute;
-  margin-left: 1850px;
-  margin-top: -40%;
+  position: relative;
+  margin-left: 1450px;
+  margin-top: -2.5%;
   background-color: transparent;
+}
+
+.container-fluid {
+  padding: 20px;
+  margin-top: 50px;
 }
