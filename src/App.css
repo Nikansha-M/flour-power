@@ -1,18 +1,8 @@
 * {
-  background-color: #78b9df;
+  font-family: Roboto, Arial, Helvetica, sans-serif
 }
 
-.title {
-  text-align: center;
-}
-
-.header {
-  background-color: #6db1bf;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #db2436
+body {
+  background-image: linear-gradient(to left bottom, #78b9df, #96c5e2, #b2d1e5, #ccdde8, #e6e9eb); 
+  background-attachment: fixed;
 }
