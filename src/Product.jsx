@@ -9,10 +9,13 @@ export default class Product extends Component {
                 <div className='card-body'>
                 {/* <div className='text-muted'>#{this.props.id}</div> */}
                 <h5 className='pt-5 border-top'>{this.props.productName}</h5>
-                <div>${this.props.price}</div>
-            </div>
-            </div>
-            </div>
+                <div>
+                <img src={this.props.photo} />
+                </div>
+                <div>${this.props.price}  |  {this.props.weight}</div>
+                </div>
+                </div>
+                </div>
         );
     }
 }
