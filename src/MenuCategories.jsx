@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Product from './Product';
+import SearchBar from './SearchBar';
+import Filter from './FilterMenu';
 
 export default class MenuCategories extends Component {
 
@@ -42,19 +44,28 @@ export default class MenuCategories extends Component {
     render() {
         // getProducts = () => {
             return (
-                <div className='container-fluid'>
-                    <div className='row'>
-                    {this.state.products.map((product) => {
-                        return (
-                        <Product 
-                        key={product.id} 
-                        id={product.id} 
-                        photo={product.photo} alt="Product"
-                        productName={product.productName} 
-                        price={product.price} 
-                        />
-                        )})}   
-                    </div>                 
+                <div>
+                    <div>
+                        <SearchBar />
+                    </div>
+                    <div>
+                        <Filter />
+                    </div>
+                    <div className='container-fluid'>
+                        <div className='row'>
+                        {this.state.products.map((product) => {
+                            return (
+                            <Product 
+                            key={product.id} 
+                            id={product.id} 
+                            photo={product.photo} alt="Product"
+                            productName={product.productName} 
+                            price={product.price} 
+                            weight={product.weight}
+                            />
+                            )})}   
+                        </div>                 
+                    </div>
                 </div>
             );
     // }

@@ -14,20 +14,17 @@ export default class App extends Component {
     render(){
         return (
             <React.Fragment>
-            <Navbar />
-            <MenuCategories />
-            <SearchBar />
-            <Filter />
-            <Footer />
-            <div className="container">
-            <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/menu" element={<MenuCategories />} />
-            {/* <Route path="/account" element={<Account />} /> */}
-            {/* <Route path="/cart" element={<Cart />} /> */}
-            </Routes>
-        </div>
+                <Navbar />
+                <div>
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/menu" element={<MenuCategories />} />
+                        {/* <Route path="/account" element={<Account />} /> */}
+                        {/* <Route path="/cart" element={<Cart />} /> */}
+                    </Routes>
+                </div>
+                <Footer />
             </React.Fragment>
         );
     }

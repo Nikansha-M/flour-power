@@ -16,8 +16,7 @@ a {
 
 .container {
   position: relative;
-  margin-left: 350px;
-  margin-top: -90%;
+  margin-top: 0%;
 }
 
 .dropdown {
