@@ -27,6 +27,24 @@ a {
 }
 
 .container-fluid {
-  padding: 20px;
-  margin-top: 50px;
+  padding: 10px;
+  margin-top: -50px;
+}
+
+.card {
+  width: 75%;
+  text-align: center;
+}
+
+.card-body {
+  padding: 5%;
+  margin-bottom: -20px;
+}
+
+.card-title {
+  padding-bottom: 5px;
+}
+
+.card-photo {
+  padding-bottom: 8px;
 }
