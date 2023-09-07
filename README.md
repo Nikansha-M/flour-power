@@ -17,14 +17,13 @@ To get started, you will need to clone the repository and install the dependenci
 
 ```
 $> git clone https://github.com/Nikansha-M/flour-power.git
-$> cd (folder)
 $> npm install
 ```
 Once the dependencies are installed, you can start the development server by running the following command:
 ```
 $> npm start
 ```
-The development server will be running on port 3000. You can access the store by opening a web browser and navigating to ``http://localhost:3000``.
+The development server will run on port 3000. You can access the store by opening a web browser and navigating to ``http://localhost:3000``.
 
 ***
 
