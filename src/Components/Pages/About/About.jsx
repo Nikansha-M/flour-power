@@ -1,9 +1,8 @@
-import "./About.css";
 
 function About() {
     return (
-        <div>
-            <div className="story">
+        <>
+            <div>
                 <h2>The Story of Our Bakery</h2>
 
                 <p>Flour Power was founded in 2023 by three friends who shared a passion for baking and a love of community. We wanted to create a space where people could come together to enjoy delicious food and make memories.</p>
@@ -16,7 +15,7 @@ function About() {
                 
                 <p>We're so grateful for the opportunity to share our passion with you. We hope you'll come visit us soon and experience our bakery for yourself.</p>
             </div>
-        </div>
+        </>
     );
 }
 
