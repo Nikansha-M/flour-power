@@ -6,11 +6,12 @@ import './App.css';
 import Header from './Components/Header';
 import HomePage from './Components/Pages/Home/HomePage';
 import About from './Components/Pages/About/About';
+import Register from './Components/Register';
+import Footer from './Components/Footer';
 
 // import MenuCategories from "./MenuCategories";
 // import SearchBar from "./SearchBar";
 // import Filter from "./FilterMenu";
-import Footer from './Components/Footer';
 
 export default class App extends Component {
     render() {
@@ -22,6 +23,8 @@ export default class App extends Component {
                         <Route path="/" element={<HomePage />} />
                         <Route path="/about" element={<About />} />
                         {/* <Route path="/menu" element={<Menu />} /> */}
+                        {/* <Route path="/login" element={<Login />} /> */}
+                        <Route path="/register" element={<Register />} />
                         {/* <Route path="/account" element={<Account />} /> */}
                         {/* <Route path="/cart" element={<Cart />} /> */}
                     </Routes>

@@ -1,42 +1,41 @@
 import React from 'react';
-import Stack from 'react-bootstrap/Stack';
-import { FaFacebook, FaInstagram, FaPinterest, FaSpotify } from "react-icons/fa";
 
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import './Footer.css';
+
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import Stack from 'react-bootstrap/Stack';
+import { FaInstagram, FaPinterest, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
-        <>
-            <div className="text-center bg-body text-dark">
-                <span className="mx-2 mt-3 pt-2">
-
-                    <div className="row text-center mt-2">
-                        <div className="col-xl-3 mx-auto mb-2">
-                            <h6 className="text-uppercase fw-bold mb-4">About us</h6>
-                            <h6 className="text-uppercase fw-bold mb-4">Location & Hours</h6>
-                            <h6 className="text-uppercase fw-bold mb-4">FAQ</h6>
-                        </div>
-
-                        <div className="col-xl-4 mx-auto mb-2">
-                            <h6 className="fw-bold">Connect with us</h6>
-                            <Stack direction="horizontal" gap={3}>
-                                <div><a href="https://www.facebook.com/"><FaFacebook /></a></div>
-                                <div><a href="https://www.instagram.com/"><FaInstagram /></a></div>
-                                <div><a href="https://www.pinterest.com/"><FaPinterest /></a></div>
-                                <div><a href="https://www.spotify.com/"><FaSpotify /></a></div>
-                            </Stack>
-                        </div>
-
-                        <div className="text-center">Copyright &copy; {new Date().getFullYear()} Flour Power Bakery & Cafe</div>
+        <div className="text-center bg-body-tertiary">
+            <Container>
+                <Stack direction="horizontal" gap={3}>
+                    <div className="nav-links p-2">
+                        <Nav.Link href="/about">About</Nav.Link>
                     </div>
+                    <div className="nav-links p-2">Location & Hours</div>
+                    <div className="nav-links p-2">FAQs</div>
 
-                </span>
-            </div>
-        </>
-    )
+                    <div className="ms-auto">
+                        <div><a href="https://www.linkedin.com/"><FaLinkedin color="black" /></a></div>
+                    </div>
+                    <div>
+                        <div><a href="https://www.instagram.com/"><FaInstagram color="black" /></a></div>
+                    </div>
+                    <div>
+                        <div><a href="https://www.pinterest.com/"><FaPinterest color="black" /></a></div>
+                    </div>
+                </Stack>
+                <Stack>
+                    <div className="text-center">&copy; {new Date().getFullYear()} Flour Power Bakery & Cafe</div>
+                </Stack>
+            </Container>
+
+        </div>
+
+    );
 }
-
 
 export default Footer;
