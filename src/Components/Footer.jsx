@@ -12,24 +12,24 @@ function Footer() {
         <div className="text-center bg-body-tertiary">
             <Container>
                 <Stack direction="horizontal" gap={3}>
-                    <div className="nav-links p-2">
+                    <div className="nav-links mt-1 p-2">
                         <Nav.Link href="/about">About</Nav.Link>
                     </div>
-                    <div className="nav-links p-2">Location & Hours</div>
-                    <div className="nav-links p-2">FAQs</div>
+                    <div className="nav-links mt-1 p-2">Location & Hours</div>
+                    <div className="nav-links mt-1 p-2">FAQs</div>
 
                     <div className="ms-auto">
-                        <div><a href="https://www.linkedin.com/"><FaLinkedin color="black" /></a></div>
+                        <div className="nav-links mt-1"><a href="https://www.linkedin.com/"><FaLinkedin color="black" /></a></div>
                     </div>
                     <div>
-                        <div><a href="https://www.instagram.com/"><FaInstagram color="black" /></a></div>
+                        <div className="nav-links mt-1"><a href="https://www.instagram.com/"><FaInstagram color="black" /></a></div>
                     </div>
                     <div>
-                        <div><a href="https://www.pinterest.com/"><FaPinterest color="black" /></a></div>
+                        <div className="nav-links mt-1"><a href="https://www.pinterest.com/"><FaPinterest color="black" /></a></div>
                     </div>
                 </Stack>
                 <Stack>
-                    <div className="text-center">&copy; {new Date().getFullYear()} Flour Power Bakery & Cafe</div>
+                    <div className="text-center mb-2">&copy; {new Date().getFullYear()} Flour Power Bakery & Cafe</div>
                 </Stack>
             </Container>
 

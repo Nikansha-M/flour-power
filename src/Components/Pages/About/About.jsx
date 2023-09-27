@@ -1,30 +1,50 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+
+import AboutUs from "../../../assets/about-us-bread.jpg";
+import "../../About.css";
 
 function About() {
     return (
-        <div className="px-4 py-5 my-5 text-center">
-            <h1 className="display-5 fw-bold">Our Story</h1>
-            <div className="col-lg-6 mx-auto">
-                <p className="lead mb-4">
-                    <p>Flour Power was founded in 2023 by two friends who shared a passion for baking and a love of community. We wanted to create a space where people could come together to enjoy delicious food and make memories.</p>
+        <Card className="card">
+            <Card.Body>
+                <h2>About Us</h2>
+                <p>Welcome to Flour Power Bakery & Cafe, where we take our love for baking and caffeine to a whole new level of deliciousness and whimsy! 🍰☕</p>
+                
+                <img src={AboutUs} className="my-3" alt="a loaf of bread" />
 
-                    <p>We started out small, baking out of our home kitchen. But as our passion grew, so did our business. We eventually moved into a larger space and started offering a wider variety of baked goods and drinks.</p>
+                <h3>Our Story</h3>
+                <p>Once upon a time in a kitchen far, far away, a group of flour-tossing, coffee-sipping enthusiasts came together to create something magical. Armed with aprons and an insatiable sweet tooth, they embarked on a quest to make the world a happier place, one bite at a time.</p>
 
-                    <p>We believe that baking is more than just about making food. It's about creating moments that people will remember. That's why we put so much care into everything we do. We use only the freshest ingredients and we take the time to perfect our recipes.</p>
+                <p>Our journey began with a simple idea: What if we combined the two most comforting things in the universe – freshly baked treats and a steaming cup of coffee? And so, Flour Power Bakery & Cafe was born, with flour on our hands and caffeine in our veins!</p>
 
-                    <p>We also believe that community is important. That's why we host regular events at our bakery, such as bake sales and book clubs. We want Flour Power to be a place where people can come together and connect with each other.</p>
 
-                    <p>We're so grateful for the opportunity to share our passion with you. We hope you'll come visit us soon and experience our bakery for yourself.</p>
+                <h3>Meet the Team</h3>
+                <p>Master Bakers: Our team of master bakers are here to make your taste buds dance with joy. They've perfected the art of turning flour, sugar, and butter into edible dreams. They're so good; they even give cookies an identity crisis!</p>
 
-                </p>
-            </div>
-        </div>
+                <p>Coffee Connoisseurs: Our caffeine-loving experts are always on the hunt for the finest beans from around the world. They take coffee seriously, so you can enjoy it with a smile.</p>
+
+                <p>Chief Cake Artists: These creative minds transform cakes into edible canvases. From birthdays to weddings and everything in between, they'll craft a cake that's almost too beautiful to eat (but trust us, you'll want to).</p>
+
+                <p>Customer Happiness Crew: Our friendly team of cafe enthusiasts are here to ensure you have the most delightful experience. They know the menu like the back of their mixing spoons and are always ready with a warm greeting and a sprinkle of joy.</p>
+
+
+                <h3>Why Choose Flour Power?</h3>
+                <p>We believe that laughter is brightest where food is best. So, expect smiles, giggles, and the occasional snort while enjoying our delectable creations.</p>
+
+                <p>We're firm believers in the power of carbs and caffeine to solve life's problems. Whether it's a tough day or a celebration, we have a treat for every occasion.</p>
+
+                <p>Our cafe is designed to be your cozy escape from the daily grind (pun intended). Come for the food, stay for the ambiance, and leave with a heart full of happiness.</p>
+
+
+                <h3>Join Us in the Floury, Caffeinated Adventure!</h3>
+                <p>Thank you for choosing Flour Power Bakery & Cafe. We're excited to be a part of your sugar-fueled, caffeinated escapades. Come for the pastries, stay for the puns, and leave with your heart and stomach full! 😄🍰☕</p>
+
+                <p>Remember, life is short, but the list of things to eat at Flour Power Bakery & Cafe is long. So, why wait? Let's embark on this delicious journey together!</p>
+            </Card.Body>
+        </Card>
+
     );
 }
 
 export default About;
-
-
-

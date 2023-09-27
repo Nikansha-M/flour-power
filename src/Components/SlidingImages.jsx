@@ -1,36 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import "./SlidingImages.css";
+
+import Coffee from "../assets/bar-nine-coffee.jpg";
+import Donut from "../assets/donut-dessert.jpg";
+import Lemon from "../assets/lemon-dessert.jpg";
 
 function SlidingImages() {
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex) => {
+        setIndex(selectedIndex);
+    };
+
     return (
-        <>
-            <Carousel fade>
-                <Carousel.Item interval={5000}>
-                    <img 
-                        className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1541781550486-81b7a2328578?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                        alt="First" 
-                    />
-                </Carousel.Item>
+        <Carousel fade activeIndex={index} onSelect={handleSelect}>
+            <Carousel.Item>
+                <img src={Coffee} text="First slide" alt="coffee"/>
+                <Carousel.Caption>
+                    <h3>Ready to refuel</h3>
+                    <p>now serving 7am - 4pm daily</p>
+                </Carousel.Caption>
+            </Carousel.Item>
 
-                <Carousel.Item interval={5000}>
-                    <img 
-                        className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" 
-                        alt="Second" 
-                    />
-                </Carousel.Item>
+            <Carousel.Item>
+            <img src={Donut} text="Second slide" alt="donut"/>
+                <Carousel.Caption>
+                    <h3>Fresh Baked Goods</h3>
+                    <p>made in house every day</p>
+                </Carousel.Caption>
+            </Carousel.Item>
 
-                <Carousel.Item interval={5000}>
-                    <img 
-                        className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1559598466-f081d11d2238?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
-                        alt="Third"
-                    />
-                </Carousel.Item>
-
-            </Carousel>
-        </>
+            <Carousel.Item>
+            <img src={Lemon} text="Third slide" alt="lemon treat"/>
+                <Carousel.Caption>
+                    <h3>New Flavor Highlight</h3>
+                    <p>lemon tart</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
     );
 }
 
